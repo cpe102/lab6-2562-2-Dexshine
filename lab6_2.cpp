@@ -14,7 +14,7 @@ int main()
     cout << name << " : ";
     cin >> id;
     cin.ignore();
-    gear = (id/10000000)-12;
+    gear = (id/1e7)-12;
     cout << "Fahsai: I think you may be GEAR " << gear << ".  I have a free movie tickets for you." << endl; 
     cout << "Fahsai: Let's go to cinema together!!!" << endl; 
     cout << "Fahsai: What movie do you want to watch?" << endl;
@@ -26,6 +26,6 @@ int main()
     cout << "Fahsai: "<< date << "....that is OK!!! I'm looking forward to watch " << movie << " with you." << endl;
     cout << name << ": ";
     getline(cin,text);
-    cout << "Fahsai: 555+ see you " << date <<  " . Bye Bye \(^ ^)/";
+    cout << "Fahsai: 555+ see you " << date <<  " . Bye Bye \\(^ ^)/";
     return 0; 
 }
